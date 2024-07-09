@@ -1,0 +1,50 @@
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: aqua;
+}
+
+#input-Fahrenheit{
+    background: rgb(169, 207, 245);
+}
+
+#input-Celsius {
+    background: rgb(184, 237, 178);
+}
+
+#input-Kelvin {
+    background: rgb(212, 159, 245) ;
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cadetblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 3px;
+}
